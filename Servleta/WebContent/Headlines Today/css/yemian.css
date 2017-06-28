@@ -1,0 +1,80 @@
+@charset "utf-8";
+.navbar {
+	min-height: 34px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+/*body{
+	margin-top: 50px;
+}*/
+.navbar {
+	margin-bottom: 16px;
+	border: 0px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.navbar {
+		border-radius: 0px !important;
+	}
+	.navbar-right {
+		float: right !important;
+		margin-right: 0px;
+	}
+}
+
+#denglu {
+	background-color: #ED4040;
+	padding-top: 6px;
+	padding-bottom: 8px;
+	width: 68px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: rgba(255, 255, 255, .9);
+	background-color: transparent;
+}
+#toutiao:hover+.dropdown-menu{
+	display: block;
+}
+.dropdown-menu:hover{
+	display: block;
+}
+#tianqi:hover+.dropdown-menu{
+	display: block;
+}
+.list-group-item1:nth-of-type(1) a img{
+	width: 110px;
+}
+.list-group-item1{
+	width: 110px;
+	list-style: none;
+	margin-bottom: 2px;
+}
+.list-group-item1 a{
+	color: #444;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	border-radius: 5px;
+	
+}
+
+.list-group-item1 a:hover,.list-group-item1 a.active{
+	background-color: #ed4040;
+	color: white;
+	transition: background-color 0.6s;
+}
+.list-group-item1:nth-of-type(1) a:hover{
+	background: white;
+	color: white;
+}
